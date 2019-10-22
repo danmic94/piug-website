@@ -39,6 +39,10 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
+.container.marketing {
+  margin-top: 7%;
+}
+
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -46,6 +50,7 @@ body {
 }
 .marketing h2 {
   font-weight: 400;
+  margin: 5% 0 5% 0;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
