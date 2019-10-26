@@ -10,12 +10,14 @@
   <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.11.2-web/css/all.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
 
   <title>IoT and AI</title>
 </head>
 
-<body>
+<body class="contact-page">
 
+  <!-- HEADER -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">D&E Tech Ltd</a>
@@ -38,33 +40,64 @@
           </li>
 		   <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
-          </li>  
+          </li>
         </ul>
       </div>
     </nav>
   </header>
-  
+
   <main role="main">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-       <!--<ol class="carousel-indicators">
-       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>-->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="first-slide" src="assets/motherboard.jpg" alt="motherboard picture">
-         <div class="container">
-            <div class="carousel-caption text-left">
-              <h1 align="center">Contact Us</h1>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+    <h1 class="text-center mb-5">Contact us</h1>
+
+    <!-- CONTENT -->
+    <div class="container mt-4">
+
+      <div class="row">
+
+        <!-- LEFT SIDE CONTENT -->
+        <div class="col">
+          <form action="" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" class="form-control" required>
             </div>
-          </div>
+
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phoneNumber">Phone number:</label>
+              <input type="phoneNumber" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea name="message" cols="15" rows="5" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
         </div>
 
+        <!-- RIGHT SIDE CONTENT -->
+        <div class="col">
+          <h2>Information</h2>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174851.47224891526!2d23.476427035644544!3d46.78353529922417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c1f916c0b8b%3A0xbbc601c331f148b!2sCluj-Napoca%2C%20Romania!5e0!3m2!1sen!2shu!4v1572103237933!5m2!1sen!2shu" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+          <p>Please give us a call, and we can help you.</p>
+          <p><strong>E-mail:</strong> info@sadasd.com</p>
+          <p><strong>Phone number:</strong> 5324324324</p>
+        </div>
+
+      </div>
+    </div>
+
     <!-- FOOTER -->
-    <footer class="container">
+    <footer class="container mt-5">
       <!--<p class="float-right"><a href="#">Back to top</a></p>  La sfarsit trebuie sters--->
       <p>&copy; 2017-2018 D&E Tech, Ltd &middot; <a href="https://ec.europa.eu/info/privacy-policy_en">Privacy</a> &middot; <a href="termsandconditions.html">Terms</a></p>
     </footer>
@@ -77,4 +110,4 @@
   <script src="javascript/bootstrap.min.js"></script>
 </body>
 
-</html>		
+</html>
