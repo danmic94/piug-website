@@ -1,29 +1,30 @@
 h1 {
-    height: 100px;
-    width: 100%;
-    color: #fff;
-    padding-top: 35px;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	padding-top: 35px;
 }
 
 .contact-page h1 {
-    background-color: #484c7f;
+	background-color: #484c7f;
 }
 
 .services-page h1 {
-    background-color: #484c7f;
+	background-color: #484c7f;
 }
 
-.services-page .fa-6x  {
+.services-page .fa-6x {
 	font-size: 5em;
 }
 
 .services-page {
-	
 	text-align: center;
 }
 
 .carousel-item {
-  height:832px;
+	height: 832px;
+}
 
-  
+.transparent-background {
+    background-color: transparent;
 }
