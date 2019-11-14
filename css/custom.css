@@ -29,6 +29,6 @@ h1 {
   background-color: transparent;
 }
 
-.erick-image {
-  content: url "../assets/images/founders/erick.jpeg";
+#company-logo-section{
+  background-color: gainsboro !important;
 }
